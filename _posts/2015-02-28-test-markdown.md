@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Test markdown
-subtitle: Each post also has a subtitle
+title: Leetcode 1
+subtitle: Flash as 
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
 ---
