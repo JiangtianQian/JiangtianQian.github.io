@@ -3,7 +3,6 @@ layout: post
 title: cs231n 3 Loss function & Optimization
 ---
 
-## Loss function & Optimization
 This leacture is mainly about different loss function and how ot optimize the loss function. Optimization: Make trade off between the fitness of trainning dataset and test dataset.
 
 ### Multiclass SVM loss
