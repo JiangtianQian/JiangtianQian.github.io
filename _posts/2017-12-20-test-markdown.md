@@ -29,6 +29,10 @@ $$L_i = -log(\frac{e^{s_{y_i}}}{\sum_{j}e^{s_j}})$$
 
 
 
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
+
+
 
 
 
