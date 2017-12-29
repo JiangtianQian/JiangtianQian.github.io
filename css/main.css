@@ -8,12 +8,12 @@ layout: null
 
 body {
   font-family: 'Lora', 'Times New Roman', serif;
-  font-size: 18px;
+  font-size: 7px;
   color: #404040;
   position: relative;
   background: #FFF;
   {% if site.page-col %}
-  background: {{ site.pa18e-col }};
+  background: {{ site.page-col }};
   {% endif %}
   {% if site.page-img %}
   background-image: url({{ site.page-img }});
