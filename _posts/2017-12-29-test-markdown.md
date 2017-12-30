@@ -2,6 +2,7 @@
 layout: post
 title: cs231n 3 Loss function & Optimization
 ---
+
 ## Loss function & Optimization
 This leacture is mainly about different loss function and how ot optimize the loss function. Optimization: Make trade off between the fitness of trainning dataset and test dataset.
 
@@ -25,9 +26,6 @@ $$\sum_{j \neq y_j}max(0, s_i - s_{y_i} + 1) + \lambda R(W)$$
 Another optimization skill is softmax classifier. The fomula is as below.
 
 $$L_i = -log(\frac{e^{s_{y_i}}}{\sum_{j}e^{s_j}})$$
-
-
-
 
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 
