@@ -14,11 +14,11 @@ each document and each terms respectively. For example, D1 = 11111110000 and ter
 resolving boolean retrieval query. For the query (search AND engine), it returns 100 & 100 = 1, which means D1 document. It is easy
 to get aimed documents through vector and boolean function &, | and ~.
 
-|-|what|can|you|learn|from|search|engine|web|application|computer|vision|
-|---|---|---|---|---|---|---|---|---|---|---|---|
-|D1|1|1|1|1|1|1|1|0|0|0|0|
-|D2|1|1|1|1|1|0|0|1|1|0|0|
-|D3|1|1|1|1|1|0|0|0|0|1|1|
+| - | what | can | you | learn | from | search | engine | web | application | computer | vision |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| D1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 0 | 0 | 0 | 0 |
+| D2 | 1 | 1 | 1 | 1 | 1| 0 | 0 | 1 | 1 | 0 | 0 |
+| D3 | 1 | 1 | 1 | 1 | 1 | 0 | 0 | 0 | 0 | 1 | 1 |
 
    As we can see, the incidence matrix is a sparse matrix, the useless 0s will occupy lots of memory. To make it space efficient, we
 optimize the matrix to a “hash table and linkedlist” like matrix. For the example above, we first sort terms alphabetically and record
