@@ -13,7 +13,7 @@ terms in these documents, let 1 indicates it exists in certain documents and 0 n
 each document and each terms respectively. For example, D1 = 11111110000 and term application = 010. This is easy for
 resolving boolean retrieval query. For the query (search AND engine), it returns 100 & 100 = 1, which means D1 document. It is easy
 to get aimed documents through vector and boolean function &, | and ~.
-![avatar](/image/read1)
+![avatar](/image/read1.jpg)
    As we can see, the incidence matrix is a sparse matrix, the useless 0s will occupy lots of memory. To make it space efficient, we
 optimize the matrix to a “hash table and linkedlist” like matrix. For the example above, we first sort terms alphabetically and record
 the document id this terms belong to, that is application-2, can-1, can-2, can-3, computer-2, engine-1, from-1, from-2, from-3,
